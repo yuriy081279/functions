@@ -1,4 +1,4 @@
-//Arrays
+ï»¿//Arrays
 #include<iostream>
 using namespace std;
 
@@ -22,16 +22,16 @@ void main()
 	Print(arr, n);
 	SORT(arr, n);
 	Print(arr, n);
-	cout << "ñóììà âñåõ çíà÷åíèé ìàññèâà = " << SUM(arr, n) << endl;
-	cout << "ñðåäíåå àðèôìåòè÷åñêîå âñåõ çíà÷åíèé ìàññèâà = " << AVG(arr, n) << endl;
-	cout << "ìèíèìàëüíîå çíà÷åíèå èç ìàññèâà = "; minValueIn(arr, n); cout<<endl;
-	cout << "ìàêñèìàëüíîå çíà÷åíèå èç ìàññèâà = "; maxValueIn(arr, n); 
+	cout << "ÑÑƒÐ¼Ð¼Ð° Ð²ÑÐµÑ… Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¹ Ð¼Ð°ÑÑÐ¸Ð²Ð° = " << SUM(arr, n) << endl;
+	cout << "ÑÑ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ð²ÑÐµÑ… Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¹ Ð¼Ð°ÑÑÐ¸Ð²Ð° = " << AVG(arr, n) << endl;
+	cout << "Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¸Ð· Ð¼Ð°ÑÑÐ¸Ð²Ð° = "; minValueIn(arr, n); cout<<endl;
+	cout << "Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¸Ð· Ð¼Ð°ÑÑÐ¸Ð²Ð° = "; maxValueIn(arr, n); 
 	cout << endl;
-	cout << "ìàññèâ ñî ñäâèãîì âïðàâî "; shiftRight(arr, n);
+	cout << "Ð¼Ð°ÑÑÐ¸Ð² ÑÐ¾ ÑÐ´Ð²Ð¸Ð³Ð¾Ð¼ Ð²Ð¿Ñ€Ð°Ð²Ð¾ "; shiftRight(arr, n);
 	cout << endl;
-	cout << "ìàññèâ ñî ñäâèãîì âëåâî "; shiftLeft(arr, n);
+	cout << "Ð¼Ð°ÑÑÐ¸Ð² ÑÐ¾ ÑÐ´Ð²Ð¸Ð³Ð¾Ð¼ Ð²Ð»ÐµÐ²Ð¾ "; shiftLeft(arr, n);
 }
-//Âûâîä ìàññèâà íà ýêðàí:
+//Ð’Ñ‹Ð²Ð¾Ð´ Ð¼Ð°ÑÑÐ¸Ð²Ð° Ð½Ð° ÑÐºÑ€Ð°Ð½:
 void FillRand(int arr[], const int n)
 {
 	for (int i = 0; i < n; i++)
