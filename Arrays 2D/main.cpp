@@ -235,8 +235,8 @@ float Avg(float drr[STROKA][STOLB], const int STROKA, const int STOLB)
 
 int minValueIn(int arr[STROKA][STOLB], const int STROKA, const int STOLB)
 {
-	int i = 0;
-	int j = 0;
+	/*int i = 0;
+	int j = 0;*/
 	int x = 0;	
 	for (int i = 0; i < STROKA; i++)
 	{
@@ -263,8 +263,8 @@ int minValueIn(int arr[STROKA][STOLB], const int STROKA, const int STOLB)
 }
 double minValueIn(double brr[STROKA][STOLB], const int STROKA, const int STOLB)
 {
-	int i = 0;
-	int j = 0;
+	/*int i = 0;
+	int j = 0;*/
 	int x = 0;
 	for (int i = 0; i < STROKA; i++)
 	{		
