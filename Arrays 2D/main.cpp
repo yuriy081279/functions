@@ -44,16 +44,14 @@ void main()
 	int i_arr_2[STROKA][STOLB];
 	double i_brr_2[STROKA][STOLB];
 	char i_crr_2[STROKA][STOLB];
-	float i_drr_2[STROKA][STOLB];
-	
+	float i_drr_2[STROKA][STOLB];	
 	
 	FillRand(i_arr_2, STROKA, STOLB);
 	Print(i_arr_2, STROKA, STOLB);
 	cout << " Сумма элементов данного массива = " << Sum(i_arr_2, STROKA, STOLB)<<endl<<endl;	
 	cout << " Среднее арифметическое элементов этого массива = " << Avg(i_arr_2, STROKA, STOLB)<<endl<<endl;	
 	cout << " Минимальное значение в этом массиве = "<< minValueIn(i_arr_2, STROKA, STOLB)<< endl << endl;
-	cout << " Максимальное значение в этом массиве = "<< maxValueIn(i_arr_2, STROKA, STOLB)<< endl << endl;
-	
+	cout << " Максимальное значение в этом массиве = "<< maxValueIn(i_arr_2, STROKA, STOLB)<< endl << endl;	
 
 	FillRand(i_brr_2, STROKA, STOLB);
 	Print(i_brr_2, STROKA, STOLB);
