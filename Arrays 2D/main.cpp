@@ -509,7 +509,7 @@ void shiftRight(int arr[STROKA][STOLB], const int STROKA, const int STOLB)
 		}
 		arr[0][0] = x;
 	}
-	cout << endl;
+	cout << endl;	
 }
 
 void shiftLeft(double brr[STROKA][STOLB], const int STROKA, const int STOLB)
